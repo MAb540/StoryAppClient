@@ -1,0 +1,38 @@
+.story-wrap-input {
+  width: 97%;
+  padding: 1rem;
+}
+
+.story-input-100 {
+  width: 100%;
+  height: 2.813rem;
+  padding: 1rem;
+  border: 1px solid #c1c1ca;
+  border-radius: 5px;
+}
+
+.story-input-textarea {
+  height: 12.4rem;
+  max-width: 100%;
+  resize: none;
+}
+
+.story-submit-btn {
+  padding: 0.7rem 1rem;
+  background-color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #5e9dfc;
+  letter-spacing: 2px;
+}
+
+.story-submit-btn:hover,
+.story-submit-btn:focus {
+  color: rgb(255, 255, 255);
+  background-color: #5e9dfc;
+}
+
+.story-radio {
+  margin: 0.8rem 0.8rem;
+}

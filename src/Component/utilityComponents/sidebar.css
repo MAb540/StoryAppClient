@@ -1,0 +1,48 @@
+aside {
+  width: 18%;
+  position: fixed;
+  height: calc(100vh - 3.6rem);
+  background-color: white;
+  border-top: 1px solid #ccc;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside ul li {
+  text-align: center;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 1rem 0;
+  letter-spacing: 0.1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+aside ul li a:hover {
+  color: #000;
+  background-color: #5e9dfc;
+}
+
+@media (max-width: 991px) {
+  aside {
+    width: 25%;
+  }
+}
+
+@media (max-width: 740px) {
+  aside {
+    width: 35%;
+  }
+}
+
+@media (max-width: 424px) {
+  aside {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=sidebar.css.map */

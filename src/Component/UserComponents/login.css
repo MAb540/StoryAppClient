@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+.container-login {
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-container {
+  max-width: 25.375rem;
+  height: 40rem;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  padding: 4rem 3rem;
+}
+
+.form-container form .login-form-title {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  color: #333;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 1.4rem;
+}
+
+.form-container .p-b-48 {
+  padding-bottom: 3rem;
+}
+
+.form-container form .wrap-input {
+  width: 100%;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 2.313rem;
+}
+
+.form-container form input {
+  outline: none;
+  border: none;
+}
+
+.form-container form .input100 {
+  font-family: Poppins-Regular;
+  font-size: 0.9rem;
+  color: #555;
+  display: block;
+  width: 100%;
+  height: 2.813rem;
+  background: 0 0;
+  padding: 0 0.2rem;
+}
+
+.form-container form .wrap-form-btn {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+.form-container form button {
+  outline: none;
+  border: none;
+}
+
+.form-container form .form-btn {
+  font-family: Poppins-Medium;
+  font-size: 0.9rem;
+  color: #000;
+  line-height: 1.2;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.form-container form .form-btn:hover {
+  color: white;
+  background-color: #5e9dfc;
+}
+
+.form-container form .wrap-msg {
+  margin-top: 4.5rem;
+  text-align: center !important;
+}
+
+.form-container form .wrap-msg span a {
+  font-family: Poppins-Regular;
+  font-size: 1rem;
+  color: #666;
+}
+
+@media (max-width: 424px) {
+  .container-login {
+    padding: 0;
+    padding-top: 1rem;
+  }
+  .form-container {
+    width: 100%;
+    padding: 3rem 1.4rem;
+  }
+  .form-container form .login-form-title {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  .form-container form .wrap-input {
+    border-bottom: 1.8px solid #adadad;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .form-container form .input100 {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  }
+  .form-container form .wrap-form-btn {
+    border-radius: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
+  }
+  .form-container form .wrap-msg {
+    margin-top: 3.5rem;
+    padding-top: 0rem;
+  }
+  .form-container form .wrap-msg span a {
+    font-size: 1.125rem;
+    color: #6e6b6b;
+  }
+}
+/*# sourceMappingURL=login.css.map */

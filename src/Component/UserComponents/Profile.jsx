@@ -54,11 +54,16 @@ function Profile() {
   }, [authorBio]);
 
   useEffect(() => {
+     let timer; 
     if (successUpdate) {
-      setTimeout(() => {
+    timer =  setTimeout(() => {
         dispatch({ type: AUTHOR_UPDATE_PROFILE_RESET });
       }, 4000);
     }
+    return ()=>{
+      clearTimeout(timer);
+    }
+    
   }, [dispatch, successUpdate]);
 
   const handleSubmit = (e) => {
